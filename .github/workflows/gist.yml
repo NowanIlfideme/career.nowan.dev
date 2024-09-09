@@ -4,9 +4,11 @@ on:
   push:
     paths:
       - "resume.yaml"
+      - ".github/workflows/gist.yml"
   pull_request:
     paths: 
       - "resume.yaml"
+      - ".github/workflows/gist.yml"
 
 env:
     GIST_ID: c93f9f2f39f0dd930b076decee6b1592  # https://gist.github.com/NowanIlfideme/c93f9f2f39f0dd930b076decee6b1592
@@ -24,8 +26,16 @@ jobs:
         input: resume.yaml
         from: yaml
         to: json
-    - run: |
-        echo "${{ steps.yaml_to_json.outputs.output }}" >> resume.json
+    # - name: Write File
+    #   uses: DamianReeves/write-file-action@v1.3
+    #   with:
+    #     path: resume.json
+    #     contents: ${{ steps.yaml_to_json.outputs.output }}
+    - name: Write JSON file
+      run: |
+        cat >> resume.json << EOF 
+        ${{ steps.yaml_to_json.outputs.output }}
+        EOF
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:
