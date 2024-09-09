@@ -26,11 +26,6 @@ jobs:
         input: resume.yaml
         from: yaml
         to: json
-    # - name: Write File
-    #   uses: DamianReeves/write-file-action@v1.3
-    #   with:
-    #     path: resume.json
-    #     contents: ${{ steps.yaml_to_json.outputs.output }}
     - name: Write JSON file
       run: |
         cat >> resume.json << EOF 
