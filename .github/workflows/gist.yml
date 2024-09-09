@@ -24,9 +24,11 @@ jobs:
         input: resume.yaml
         from: yaml
         to: json
+    - run: |
+        echo "${{ steps.yaml_to_json.outputs.output }}" >> resume.json
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:
         token: ${{ secrets.GIST_TOKEN }}
         gist_id: ${{ env.GIST_ID }}
-        file_path: ${{ steps.yaml_to_json.outputs.output }}
+        file_path: resume.json
