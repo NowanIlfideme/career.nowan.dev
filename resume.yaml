@@ -4,7 +4,7 @@ basics:
   name: "Anatoly Makarevich"
   # phone: ""
   label: "Lead Data Scientist"
-  image: "TODO"
+  image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
   summary: >
     I'm a data scientist.
   website: "https://nowan.dev"
