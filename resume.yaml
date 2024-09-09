@@ -1,0 +1,112 @@
+meta:
+  theme: "professional"
+basics:
+  name: "Anatoly Makarevich"
+  # phone: ""
+  label: "Lead Data Scientist"
+  image: "TODO"
+  summary: >
+    I'm a data scientist.
+  website: "https://nowan.dev"
+  url: "https://nowan.dev"
+  email: "career@nowan.dev"
+  location:
+    city: "Krakow"
+    countryCode: "PL"
+  profiles:
+    - network: "github"
+      username: "NowanIlfideme"
+      url: "https://github.com/NowanIlfideme"
+    - network: "linkedin"
+      username: "nowanilfideme"
+      url: "www.linkedin.com/in/nowanilfideme"
+work:
+  - name: "EPAM Systems"
+    website: "https://www.epam.com/"
+    position: "Lead Data Scientist"
+    startDate: "2023-06-01"
+    # no endDate
+    location: "Krakow, PL"
+    summary: "TODO"
+    highlights:
+      - "TODO"
+  - name: "EPAM Systems"
+    website: "https://www.epam.com/"
+    position: "Senior Data Scientist"
+    startDate: "2021-04-01"
+    endDate: "2023-05-31"
+    location: "Krakow, PL"
+    summary: "TODO"
+    highlights:
+      - "TODO"
+  - name: "EPAM Systems"
+    website: "https://www.epam.com/"
+    position: "Data Scientist"
+    startDate: "2017-08-17"
+    endDate: "2021-03-31"
+    location: "Krakow, PL"
+    summary: "TODO"
+    highlights:
+      - "TODO"
+education:
+  - institution: "Belarusian State University"
+    studyType: "Bachelor's"
+    area: "Applied Mathematics and Computer Science"
+    startDate: "2014-09-01"
+    endDate: "2018-06-01"
+  - institution: "Belarusian State University"
+    studyType: "Master's"
+    area: "Mathematical Modelling and Data Analysis"
+    startDate: "2018-09-01"
+    endDate: "2020-06-01"
+certificates: [] # don't think Coursera is really important :)
+# references:
+#   - name: "Foo"
+#     reference: "Bar"
+skills:
+  - name: "Data Science"
+    level: "Lead"
+    keywords:
+      - "TODO"
+  - name: "Software Engineering"
+    level: "Senior"
+    keywords:
+      - "Python"
+# awards:
+#   - title: "TODO"
+#     date: "2018-01-01"
+#     summary: "TODO"
+publications:
+  - name: "TODO"
+    releaseDate: "2018-01-01"
+    summary: ""
+    # url: ""
+volunteer:
+  - organization: "pydantic-yaml"
+    position: "Primary Developer"
+    url: "https://pydantic-yaml.readthedocs.io/en/latest/"
+    startDate: "2020-11-22"
+    summary: "YAML extension for Pydantic library."
+    highlights:
+      - "Full library implementation with tests."
+      - "CI/CD through GitHub Actions and ReadTheDocs"
+      - "Reviewed and approved contributions."
+  - organization: "pydantic-kedro"
+    position: "Primary Developer"
+    url: "https://pydantic-kedro.readthedocs.io/en/latest/"
+    startDate: "2023-02-21"
+    summary: "Extension to save arbitrary Pydantic models as Kedro datasets."
+    highlights:
+      - "Full library implementation with tests."
+      - "CI/CD through GitHub Actions and ReadTheDocs"
+languages:
+  - language: "English"
+    fluency: "Native Speaker"
+  - language: "Russian"
+    fluency: "Native Speaker"
+  - language: "Polish"
+    fluency: "A2"
+interests:
+  - name: "TODO"
+    keywords:
+      - "TODO"
