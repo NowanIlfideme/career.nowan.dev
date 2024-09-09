@@ -1,0 +1,32 @@
+name: Update Resume Gist
+
+on:
+  push:
+    paths:
+      - "resume.yaml"
+  pull_request:
+    paths: 
+      - "resume.yaml"
+
+env:
+    GIST_ID: c93f9f2f39f0dd930b076decee6b1592  # https://gist.github.com/NowanIlfideme/c93f9f2f39f0dd930b076decee6b1592
+
+jobs:
+  update-resume-gist:
+    runs-on: ubuntu-latest 
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+    - name: Data Format Converter Action
+      id: yaml_to_json
+      uses: fabasoad/data-format-converter-action@v0.2.3
+      with:
+        input: resume.yaml
+        from: yaml
+        to: json
+    - name: Update Resume Gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.GIST_TOKEN }}
+        gist_id: ${{ env.GIST_ID }}
+        file_path: ${{ steps.yaml_to_json.outputs.output }}
