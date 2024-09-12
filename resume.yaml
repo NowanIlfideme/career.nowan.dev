@@ -6,8 +6,9 @@ basics:
   label: "Lead Data Scientist"
   image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
   summary: >
-    I'm a data scientist.
-    There will be some more information here.
+    Data scientist and team leader, with a focus on econometric modelling using modern machine learning techniques.
+    My main domain experience is in the Retail and Consumer Packaged Goods (CPG/FMCG) industries.
+    I can work in multiple roles, make decisions under uncertainty and deliver quality software.
   website: "https://nowan.dev"
   url: "https://nowan.dev"
   email: "career@nowan.dev"
@@ -28,7 +29,9 @@ work:
     startDate: "2023-06-01"
     # no endDate
     location: "Krakow, PL"
-    summary: "TODO"
+    summary: >
+      TODO
+    # I have led the design and development of several forecasting platforms for multinational...
     highlights:
       - "TODO"
   - name: "EPAM Systems"
