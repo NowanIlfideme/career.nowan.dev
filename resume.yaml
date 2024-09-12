@@ -45,7 +45,7 @@ skills:
       - Data Science Consulting
       - "Domain: Demand Planning"
       - "Domain: Retail"
-      - "Domain: Consumer Packaged Goods (CPG)"
+      - "Domain: Consumer Goods (CPG)"
   - name: Software Engineering
     level: Advanced
     keywords:
@@ -66,7 +66,7 @@ skills:
       - Computer Vision (CV)
       - Generative AI (GenAI)
       - Reinforcement Learning
-  - name: DevOps
+  - name: DevOps and Cloud
     level: Intermediate
     keywords:
       - Continuous Integration (CI)
@@ -105,7 +105,19 @@ work:
     location: "Krakow, PL"
     summary: "TODO"
     highlights:
-      - "TODO"
+      - "Internal project: Worked with workforce planning team to forecast employee utilization/time allocation."
+      - |
+        Project with North American retailer: Forecasting of consumer demand to direct replenishment and prevent stock-outs.
+        I performed EDA, integrated external datasets (weather and demographics), and updated models for predicting sparse sales.
+        I experimented with multiple modelling approaches, including price bucketing and hierarchical reconcilliation.
+        I built an explainable statistical optimization algorithm for product size distribution.
+        I also developed a data/ML pipeline library on top of Airflow and Google Cloud; our team deployed using this library.
+      - |
+        Project with multinational CPG company: Identification and estimation of Key Business Drivers.
+        I won an inter-company "hackathon" using Bayesian statistical modelling.
+        I created a model (PyMC) and backend (FastAPI) for a proof-of-concept web tool.
+        Later, I developed a large portion of the data ingestion, ETL, modelling and pipelining stack.
+        I also created a model-based simulator.
 education:
   - institution: "Belarusian State University"
     studyType: "Bachelor's"
