@@ -23,38 +23,58 @@ basics:
       username: "nowanilfideme"
       url: "https://www.linkedin.com/in/nowanilfideme"
 skills:
-  - name: Tabular Data Science
-    level: Expert
+  # levels are "Beginner", "Intermediate", "Advanced", "Master"
+  # https://github.com/jsonresume/resume-cli/issues/213
+  - name: Data Science
+    level: Master
     keywords:
       - Machine Learning
+      - Time Series Forecasting
+      - Econometrics
+      - Structural Modelling
+      - Exploratory Data Analysis (EDA)
+      - Statistics
       - Regression
       - Classification
+      - Hyperparameter Optimization
       - Bayesian Networks
-  - name: Econometrics and Time Series Analysis
-    level: Expert
-    keywords:
-      - Forecasting
-      - Structural Modelling
       - Causal Machine Learning
+  - name: Domain Expertise
+    level: Advanced
+    keywords:
+      - Data Science Consulting
+      - "Domain: Demand Planning"
+      - "Domain: Retail"
+      - "Domain: Consumer Packaged Goods (CPG)"
   - name: Software Engineering
     level: Advanced
     keywords:
       - Python
+      - Pandas
+      - PySpark
+      - ML Engineering
+      - API Design
       - Software Architecture
       - Linting
       - Automated Testing
-  - name: Neural Networks
-    level: Skilled
+      - Julia
+  - name: Deep Learning
+    level: Intermediate
     keywords:
       - Natural Language Processing (NLP)
       - Large Language Models (LLMs)
       - Computer Vision (CV)
+      - Generative AI (GenAI)
+      - Reinforcement Learning
   - name: DevOps
-    level: Skilled
+    level: Intermediate
     keywords:
-      - CI/CD
+      - Continuous Integration (CI)
+      - Continuous Delivery (CD)
       - GitHub Actions
       - Docker
+      - Microsoft Azure
+      - Databricks
       - Linux
 work:
   - name: "EPAM Systems"
