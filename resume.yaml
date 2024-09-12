@@ -5,8 +5,8 @@ basics:
   # phone: ""
   label: "Lead Data Scientist"
   image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
-  summary: >
-    Data scientist and team leader, with a focus on econometric modelling using modern machine learning techniques.
+  summary: |
+    "Full stack" data scientist and team leader, with a focus on econometric modelling using modern machine learning techniques.
     My main domain experience is in the Retail and Consumer Packaged Goods (CPG/FMCG) industries.
     I can work in multiple roles, make decisions under uncertainty and deliver quality software.
   website: "https://nowan.dev"
@@ -22,11 +22,45 @@ basics:
     - network: "linkedin"
       username: "nowanilfideme"
       url: "https://www.linkedin.com/in/nowanilfideme"
+skills:
+  - name: Tabular Data Science
+    level: Expert
+    keywords:
+      - Machine Learning
+      - Regression
+      - Classification
+      - Bayesian Networks
+  - name: Econometrics and Time Series Analysis
+    level: Expert
+    keywords:
+      - Forecasting
+      - Structural Modelling
+      - Causal Machine Learning
+  - name: Software Engineering
+    level: Advanced
+    keywords:
+      - Python
+      - Software Architecture
+      - Linting
+      - Automated Testing
+  - name: Neural Networks
+    level: Skilled
+    keywords:
+      - Natural Language Processing (NLP)
+      - Large Language Models (LLMs)
+      - Computer Vision (CV)
+  - name: DevOps
+    level: Skilled
+    keywords:
+      - CI/CD
+      - GitHub Actions
+      - Docker
+      - Linux
 work:
   - name: "EPAM Systems"
     website: "https://www.epam.com/"
     position: "Lead Data Scientist"
-    startDate: "2023-06-01"
+    startDate: 2023-06-01
     # no endDate
     location: "Krakow, PL"
     summary: >
@@ -37,8 +71,8 @@ work:
   - name: "EPAM Systems"
     website: "https://www.epam.com/"
     position: "Senior Data Scientist"
-    startDate: "2021-04-01"
-    endDate: "2023-05-31"
+    startDate: 2021-04-01
+    endDate: 2023-05-31
     location: "Krakow, PL"
     summary: "TODO"
     highlights:
@@ -46,8 +80,8 @@ work:
   - name: "EPAM Systems"
     website: "https://www.epam.com/"
     position: "Data Scientist"
-    startDate: "2017-08-17"
-    endDate: "2021-03-31"
+    startDate: 2017-08-17
+    endDate: 2021-03-31
     location: "Krakow, PL"
     summary: "TODO"
     highlights:
@@ -56,40 +90,31 @@ education:
   - institution: "Belarusian State University"
     studyType: "Bachelor's"
     area: "Applied Mathematics and Computer Science"
-    startDate: "2014-09-01"
-    endDate: "2018-06-01"
+    startDate: 2014-09-01
+    endDate: 2018-06-01
   - institution: "Belarusian State University"
     studyType: "Master's"
     area: "Mathematical Modelling and Data Analysis"
-    startDate: "2018-09-01"
-    endDate: "2020-06-01"
+    startDate: 2018-09-01
+    endDate: 2020-06-01
 certificates: [] # don't think Coursera is really important :)
 # references:
 #   - name: "Foo"
 #     reference: "Bar"
-skills:
-  - name: "Data Science"
-    level: "Lead"
-    keywords:
-      - "TODO"
-  - name: "Software Engineering"
-    level: "Senior"
-    keywords:
-      - "Python"
 # awards:
 #   - title: "TODO"
 #     date: "2018-01-01"
 #     summary: "TODO"
 publications:
   - name: "TODO"
-    releaseDate: "2018-01-01"
+    releaseDate: 2018-01-01
     summary: ""
     # url: ""
 volunteer:
   - organization: "pydantic-yaml"
     position: "Primary Developer"
     url: "https://pydantic-yaml.readthedocs.io/en/latest/"
-    startDate: "2020-11-22"
+    startDate: 2020-11-22
     summary: "YAML extension for Pydantic library."
     highlights:
       - "Full library implementation with tests."
@@ -98,7 +123,7 @@ volunteer:
   - organization: "pydantic-kedro"
     position: "Primary Developer"
     url: "https://pydantic-kedro.readthedocs.io/en/latest/"
-    startDate: "2023-02-21"
+    startDate: 2023-02-21
     summary: "Extension to save arbitrary Pydantic models as Kedro datasets."
     highlights:
       - "Full library implementation with tests."
