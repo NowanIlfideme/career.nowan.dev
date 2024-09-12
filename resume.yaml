@@ -25,20 +25,31 @@ basics:
 skills:
   # levels are "Beginner", "Intermediate", "Advanced", "Master"
   # https://github.com/jsonresume/resume-cli/issues/213
-  - name: Data Science
+  - name: Data Science on Tabular Data
     level: Master
     keywords:
+      - Exploratory Data Analysis (EDA)
+      - Statistics
       - Machine Learning
+      - Regression
+      - Classification
+      - Causal Machine Learning
+  - name: Data Science & Econometrics
+    level: Master
+    keywords:
       - Time Series Forecasting
       - Econometrics
       - Structural Modelling
-      - Exploratory Data Analysis (EDA)
-      - Statistics
-      - Regression
-      - Classification
       - Hyperparameter Optimization
       - Bayesian Networks
-      - Causal Machine Learning
+  - name: Deep Learning
+    level: Intermediate
+    keywords:
+      - Natural Language Processing (NLP)
+      - Large Language Models (LLMs)
+      - Computer Vision (CV)
+      - Generative AI (GenAI)
+      - Reinforcement Learning
   - name: Domain Expertise
     level: Advanced
     keywords:
@@ -58,14 +69,6 @@ skills:
       - Linting
       - Automated Testing
       - Julia
-  - name: Deep Learning
-    level: Intermediate
-    keywords:
-      - Natural Language Processing (NLP)
-      - Large Language Models (LLMs)
-      - Computer Vision (CV)
-      - Generative AI (GenAI)
-      - Reinforcement Learning
   - name: DevOps and Cloud
     level: Intermediate
     keywords:
@@ -91,17 +94,17 @@ work:
   - name: "EPAM Systems"
     website: "https://www.epam.com/"
     position: "Senior Data Scientist"
-    startDate: 2021-04-01
+    startDate: 2021-08-01
     endDate: 2023-05-31
     location: "Krakow, PL"
     summary: "TODO"
     highlights:
       - "TODO"
-  - name: "EPAM Systems"
+  - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
     website: "https://www.epam.com/"
     position: "Senior Data Scientist"
     startDate: 2021-02-01
-    endDate: 2021-04-31
+    endDate: 2021-07-31
     location: "Minsk, BY"
     summary: "TODO"
     highlights:
@@ -159,11 +162,11 @@ certificates: [] # don't think Coursera is really important :)
 #   - title: "TODO"
 #     date: "2018-01-01"
 #     summary: "TODO"
-publications:
-  - name: "TODO"
-    releaseDate: 2018-01-01
-    summary: ""
-    # url: ""
+# publications:
+#   - name: "TODO"
+#     releaseDate: 2018-01-01
+#     summary: ""
+#     # url: ""
 volunteer:
   - organization: "pydantic-yaml"
     position: "Primary Developer"
@@ -190,6 +193,7 @@ languages:
   - language: "Polish"
     fluency: "A2"
 interests:
+  # Add homelab, 3d printing, board gaming and design, ...
   - name: "TODO"
     keywords:
       - "TODO"
