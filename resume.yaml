@@ -99,25 +99,47 @@ work:
       - "TODO"
   - name: "EPAM Systems"
     website: "https://www.epam.com/"
-    position: "Data Scientist"
-    startDate: 2017-08-17
-    endDate: 2021-03-31
-    location: "Krakow, PL"
+    position: "Senior Data Scientist"
+    startDate: 2021-02-01
+    endDate: 2021-04-31
+    location: "Minsk, BY"
     summary: "TODO"
     highlights:
-      - "Internal project: Worked with workforce planning team to forecast employee utilization/time allocation."
-      - |
-        Project with North American retailer: Forecasting of consumer demand to direct replenishment and prevent stock-outs.
-        I performed EDA, integrated external datasets (weather and demographics), and updated models for predicting sparse sales.
-        I experimented with multiple modelling approaches, including price bucketing and hierarchical reconcilliation.
-        I built an explainable statistical optimization algorithm for product size distribution.
-        I also developed a data/ML pipeline library on top of Airflow and Google Cloud; our team deployed using this library.
-      - |
-        Project with multinational CPG company: Identification and estimation of Key Business Drivers.
-        I won an inter-company "hackathon" using Bayesian statistical modelling.
-        I created a model (PyMC) and backend (FastAPI) for a proof-of-concept web tool.
-        Later, I developed a large portion of the data ingestion, ETL, modelling and pipelining stack.
-        I also created a model-based simulator.
+      - "TODO"
+  - name: "EPAM Systems | Client: Multinational CPG (Consumer Packaged Goods) Manufacturer"
+    website: "https://www.epam.com/"
+    position: "Data Scientist"
+    startDate: 2019-07-01
+    endDate: 2021-01-31
+    location: "Minsk, BY"
+    summary: "Identification and estimation of Key Business Drivers (e.g. price elasticity, promotion, distribution)."
+    highlights:
+      - Won an inter-company "hackathon" using Bayesian statistical modelling.
+      - Created a model (PyMC) and backend (FastAPI) for a proof-of-concept web tool.
+      - "Developed a large portion of the software stack, including data ingestion, ETL, modelling and pipelining."
+      - Implemented KBD (key business driver) "extraction" via sensitivity analysis and simulation.
+      - Created a model-based simulator for what-if analysis, comparison and explainability.
+      - Optimized and parallelized heavy computation (MCMC/NUTS within PyMC).
+      - Presented results to project leadership.
+  - name: "EPAM Systems | Client: North American Retailer"
+    website: "https://www.epam.com/"
+    position: "Data Scientist"
+    startDate: 2018-09-01
+    endDate: 2019-06-31
+    location: "Minsk, BY"
+    summary: "Forecasting of consumer demand to direct replenishment and prevent stock-outs."
+    highlights:
+      - Performed EDA, integrated external datasets (weather and demographics), and updated models for predicting sparse sales.
+      - Experimented with multiple modelling approaches, including price bucketing and hierarchical reconcilliation.
+      - Built an explainable statistical optimization algorithm for product size distribution.
+      - Developed a data/ML pipeline library on top of Airflow and Google Cloud; our team deployed using this library.
+  - name: "EPAM Systems | Interal Workforce Planning Team"
+    website: "https://www.epam.com/"
+    position: "Data Scientist"
+    startDate: 2017-08-17
+    endDate: 2018-08-31
+    location: "Minsk, BY"
+    summary: "Worked with workforce planning team to forecast employee utilization/time allocation."
 education:
   - institution: "Belarusian State University"
     studyType: "Bachelor's"
