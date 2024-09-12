@@ -74,44 +74,66 @@ skills:
     keywords:
       - Continuous Integration (CI)
       - Continuous Delivery (CD)
-      - GitHub Actions
-      - Docker
       - Microsoft Azure
       - Databricks
+      - GitHub Actions
+      - Docker
       - Linux
 work:
-  - name: "EPAM Systems"
+  - name: "EPAM Systems | Client: Multinational Consumer Goods Company"
+    website: "https://www.epam.com/"
+    position: "Lead Data Scientist"
+    startDate: 2024-06-01
+    # no endDate
+    location: "Krakow, PL"
+    summary: "Development of end-to-end data products in Sales Excellence."
+    highlights:
+      - Conducting exploratory data analysis and KPI value-sizing.
+      - Playing data science and technical leadership role in a chaotic multi-vendor environment.
+      - Setting up best practices for software development and data science lifecycles.
+      # soon to be implementing models...
+  - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
     website: "https://www.epam.com/"
     position: "Lead Data Scientist"
     startDate: 2023-06-01
-    # no endDate
+    endDate: 2024-08-01
     location: "Krakow, PL"
-    summary: >
-      TODO
-    # I have led the design and development of several forecasting platforms for multinational...
+    summary: "Creation of a global next-gen forecasting and replenishment platform."
     highlights:
-      - "TODO"
-  - name: "EPAM Systems"
+      - Co-led the technical development of the platform, responsible for the Data Science and Software Architecture streams.
+      - Co-developed architecture on top of Azure Databricks platforms.
+      - Developed APIs for Core functionality, ML library, time travel databases.
+      - Screened and interviewed cancidates for both the core and market-specific teams.
+      - Handed off technical leadership responsibilities and switched to a technology and data science consulting role.
+  - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
     website: "https://www.epam.com/"
-    position: "Senior Data Scientist"
+    position: "Lead Data Scientist"
     startDate: 2021-08-01
-    endDate: 2023-05-31
+    endDate: 2023-06-31
     location: "Krakow, PL"
-    summary: "TODO"
+    summary: "Evolution of a simple predictive model for e-commerce into a platform for multi-channel sales forecasting."
     highlights:
-      - "TODO"
+      - Created Bayesian model for e-commerce channel that outperformed existing solution by at least 10% (real-world).
+      - Designed and implemented new process for data gathering that allowed an additional 20-50% MAPE improvement.
+      - Designed Python library architecture and part of architecture (in collaboration with architect) of a new forecasting platform.
+      - Implemented ~60% of total lines of code within core API code, reusable utilities, ML transformers and models, job and unit tests.
+      - Ran experiments and applied various ML models for forecasting and optimization tasks.
+      - Co-led decisions on data science and acted as "glue" between data science, data engineering and customer teams.
+      - Re-implemented CI/CD pipelines on GitHub Actions and Databricks.
   - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
     website: "https://www.epam.com/"
     position: "Senior Data Scientist"
     startDate: 2021-02-01
-    endDate: 2021-07-31
-    location: "Minsk, BY"
-    summary: "TODO"
+    endDate: 2021-08-31
+    location: "Krakow, PL"
+    summary: "Development of predictive distribution models for countries in APAC region."
     highlights:
-      - "TODO"
+      - Created additional features and applied model ensembling.
+      - Achieved a 5% accuracy improvement over the current solution.
+      - Initiated refactoring of existing solution to incorporate new features.
   - name: "EPAM Systems | Client: Multinational CPG (Consumer Packaged Goods) Manufacturer"
     website: "https://www.epam.com/"
-    position: "Data Scientist"
+    position: "Senior Data Scientist"
     startDate: 2019-07-01
     endDate: 2021-01-31
     location: "Minsk, BY"
