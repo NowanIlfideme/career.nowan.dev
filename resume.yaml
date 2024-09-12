@@ -208,14 +208,29 @@ volunteer:
       - "Full library implementation with tests."
       - "CI/CD through GitHub Actions and ReadTheDocs"
 languages:
+  # beginner, intermediate, advanced, master, native speaker
+  # https://github.com/phoinixi/jsonresume-theme-stackoverflow/blob/0720f22cfaa118969d328b43b497e32b689ddbf7/style.css#L557
   - language: "English"
     fluency: "Native Speaker"
   - language: "Russian"
     fluency: "Native Speaker"
   - language: "Polish"
-    fluency: "A2"
+    fluency: "Beginner"
 interests:
   # Add homelab, 3d printing, board gaming and design, ...
-  - name: "TODO"
+  - name: "Home lab and DIY"
     keywords:
-      - "TODO"
+      - 3D printing
+      - CAD (Computer-Aided Design)
+      - Microcomputers (Raspberry Pi)
+      - Self-hosting
+      - Networking
+  - name: "Gaming"
+    keywords:
+      - Board Gaming
+      - Board Game Design (2+ prototypes presented at conventions)
+      - PC Games
+  - name: "Playing Instruments"
+    keywords:
+      - Piano
+      - Theremin
