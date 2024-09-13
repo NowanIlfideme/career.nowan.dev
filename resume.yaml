@@ -185,7 +185,7 @@ certificates: [] # don't think Coursera from 2017 is really important :)
 #     date: "2018-01-01"
 #     summary: "TODO"
 publications:
-  - name: "(RU) MS-VARX Model and Its Use to Analyze the Business Cycle of the Belarusian Economy"
+  - name: "MS-VARX Model and Its Use to Analyze the Business Cycle of the Belarusian Economy [RU]"
     releaseDate: 2020-04-01
     originalUrl: "https://www.nbrb.by/bv/articles/10749.pdf"
     url: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/publications/Malugin_and_Makarevich_2020_The_MS_VARX_model_and_its_application.pdf"
@@ -193,7 +193,7 @@ publications:
       The Markov-switching Vector Autoregressive with eXogenous variables is a mathematical time series model.
       It is applied to the problem of the business cycle analysis and forecasting of the growth rates of
       the real GDP of the Belarusian economy based on the Economic Sentiment Index (ESI) as a leading indicator.
-  - name: "(RU) A Comparative Analysis of the Hodrick-Prescott and Hamilton Filters for Business Cycle Turning Points Estimation for the Belarusian Economy"
+  - name: "A Comparative Analysis of the Hodrick-Prescott and Hamilton Filters for Business Cycle Turning Points Estimation for the Belarusian Economy [RU]"
     releaseDate: 2018-08-01
     originalUrl: "https://www.nbrb.by/bv/articles/10546.pdf"
     url: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/publications/Malugin_and_Makarevich_2018_Comparative_analysis_of_Hodrick_Prescott.pdf"
