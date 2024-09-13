@@ -188,7 +188,7 @@ publications:
   - name: "(RU) MS-VARX Model and Its Use to Analyze the Business Cycle of the Belarusian Economy"
     releaseDate: 2020-04-01
     originalUrl: "https://www.nbrb.by/bv/articles/10749.pdf"
-    url: "https://www.nbrb.by/bv/articles/10749.pdf"
+    url: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/publications/Malugin_and_Makarevich_2020_The_MS_VARX_model_and_its_application.pdf"
     summary: >
       The model with Markovian switching of conditions MS-VARX, the mathematical grounding of which
       was proposed by the author earlier, extends the well-known model MS-VAR, allowing for the possibility of use of
@@ -201,7 +201,7 @@ publications:
   - name: "(RU) A Comparative Analysis of the Hodrick-Prescott and Hamilton Filters for Business Cycle Turning Points Estimation for the Belarusian Economy"
     releaseDate: 2018-08-01
     originalUrl: "https://www.nbrb.by/bv/articles/10546.pdf"
-    url: "https://www.nbrb.by/bv/articles/10546.pdf"
+    url: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/publications/Malugin_and_Makarevich_2018_Comparative_analysis_of_Hodrick_Prescott.pdf"
     summary: >
       This paper presents a comparative analysis of the Hodrick-Prescott and Hamilton statistical filters
       with regard to the tasks of extraction of the long-term trend and cycle components of the macroeconomic time series. A
