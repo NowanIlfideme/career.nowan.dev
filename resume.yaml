@@ -7,9 +7,9 @@ basics:
   image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
   summary: |
     "Full stack" data scientist, with a focus on econometric modelling using modern machine learning techniques.
-    I can lead projects throughout all stages: POC, requirements discovery, EDA, modelling and experimentation, deployment, optimization and monitoring. 
-    I can work in multiple roles project roles: technical leader, data scientist, software developer, software architect, consultant.
-    I have also created courses and mentor/upskill multiple other data scientists.  
+    I can lead projects throughout all stages: requirements discovery, EDA, POC, modelling and experimentation, MVP, optimization, deployment and monitoring. 
+    I can work in multiple roles project roles: data scientist, technical leader, software developer, software architect, consultant. I prefer a mix of roles.
+    I have also created courses and manage/mentor multiple other data scientists in my unit.
     I am fluent in general and scientific Python (PyData stack, PySpark, Pydantic) and deliver high-quality software.
     My main domain experience is in the Retail and Consumer Packaged Goods industries.
   website: "https://nowan.dev"
@@ -62,12 +62,11 @@ skills:
       - SHAP
       - Causal ML
   - name: Deep Learning
-    level: Intermediate (Hobby Level)
+    level: Intermediate (Personal Projects)
     keywords:
       - Natural Language Processing (NLP)
       - Large Language Models (LLMs)
       - Computer Vision (CV)
-      - Generative AI (GenAI)
       - Reinforcement Learning
   - name: Domain Expertise
     level: Advanced
@@ -82,11 +81,14 @@ skills:
       - Python
       - Software Architecture
       - API Design
+      - Type Hinting
       - Linting
       - Automated Testing
+      - Pydantic
   - name: Data Engineering
     level: Advanced
     keywords:
+      - Database Design
       - SQL
       - Pandas
       - PySpark
@@ -97,9 +99,9 @@ skills:
     level: Advanced
     keywords:
       - Model Lifecycle
+      - MLFlow
       - Model Deployment
       - Kedro
-      - MLflow
   - name: DevOps
     level: Advanced
     keywords:
@@ -117,11 +119,12 @@ skills:
   - name: Other Languages
     level: Beginner
     keywords:
-      - Julia
+      - Julia ♥
       - Rust
       - C++
       - R
       - Java
+      - Web (JavaScript, HTML, CSS)
 work:
   - name: "EPAM Systems | Client: Multinational Consumer Goods Company"
     url: "https://www.epam.com/"
@@ -266,6 +269,13 @@ volunteer:
     highlights:
       - "Full library implementation with tests."
       - "CI/CD through GitHub Actions and ReadTheDocs"
+  - organization: EPAM Systems
+    position: "Course Developer and Mentor"
+    url: "https://www.epam.com/"
+    summary: "Beginner and Intermediate Course on Time Series Analysis"
+    highlights:
+      - Co-authored a course on Time Series Analysis, partially based on Hyndman's FPP3.
+      - Mentored multiple students and established data scientists.
 languages:
   # beginner, intermediate, advanced, master, native speaker
   # https://github.com/phoinixi/jsonresume-theme-stackoverflow/blob/0720f22cfaa118969d328b43b497e32b689ddbf7/style.css#L557
@@ -276,8 +286,7 @@ languages:
   - language: "Polish"
     fluency: "Beginner"
 interests:
-  # Add homelab, 3d printing, board gaming and design, ...
-  - name: "Home lab and DIY"
+  - name: "Homelab and DIY"
     keywords:
       - 3D printing
       - CAD (Computer-Aided Design)
