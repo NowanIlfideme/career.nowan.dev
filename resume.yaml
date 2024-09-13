@@ -7,8 +7,8 @@ basics:
   image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
   summary: |
     "Full stack" data scientist and team leader, with a focus on econometric modelling using modern machine learning techniques.
-    My main domain experience is in the Retail and Consumer Packaged Goods (CPG/FMCG) industries.
     I can work in multiple roles, make decisions under uncertainty and deliver quality software.
+    My main domain experience is in the Retail and Consumer Packaged Goods industries.
   website: "https://nowan.dev"
   url: "https://nowan.dev"
   email: "career@nowan.dev"
@@ -25,7 +25,7 @@ basics:
 skills:
   # levels are "Beginner", "Intermediate", "Advanced", "Master"
   # https://github.com/jsonresume/resume-cli/issues/213
-  - name: Data Science on Tabular Data
+  - name: Data Science (Core)
     level: Master
     keywords:
       - Exploratory Data Analysis (EDA)
@@ -33,15 +33,15 @@ skills:
       - Machine Learning
       - Regression
       - Classification
-      - Causal Machine Learning
+      - Hyperparameter Optimization
   - name: Data Science & Econometrics
     level: Master
     keywords:
       - Time Series Forecasting
       - Econometrics
       - Structural Modelling
-      - Hyperparameter Optimization
       - Bayesian Networks
+      - Causal Machine Learning
   - name: Deep Learning
     level: Intermediate
     keywords:
@@ -55,8 +55,8 @@ skills:
     keywords:
       - Data Science Consulting
       - "Domain: Demand Planning"
-      - "Domain: Retail"
       - "Domain: Consumer Goods (CPG)"
+      - "Domain: Retail"
   - name: Software Engineering
     level: Advanced
     keywords:
@@ -81,9 +81,9 @@ skills:
       - Linux
 work:
   - name: "EPAM Systems | Client: Multinational Consumer Goods Company"
-    website: "https://www.epam.com/"
+    url: "https://www.epam.com/"
     position: "Lead Data Scientist"
-    startDate: 2024-06-01
+    startDate: 2024-07-01
     # no endDate
     location: "Krakow, PL"
     summary: "Development of end-to-end data products in Sales Excellence."
@@ -92,8 +92,8 @@ work:
       - Playing data science and technical leadership role in a chaotic multi-vendor environment.
       - Setting up best practices for software development and data science lifecycles.
       # soon to be implementing models...
+      - "Environment: Azure Databricks, Azure DevOps"
   - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
-    website: "https://www.epam.com/"
     position: "Lead Data Scientist"
     startDate: 2023-06-01
     endDate: 2024-08-01
@@ -105,11 +105,11 @@ work:
       - Developed APIs for Core functionality, ML library, time travel databases.
       - Screened and interviewed cancidates for both the core and market-specific teams.
       - Handed off technical leadership responsibilities and switched to a technology and data science consulting role.
+      - "Environment: Azure Databricks, GitHub Actions, Jira, Confluence"
   - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
-    website: "https://www.epam.com/"
     position: "Lead Data Scientist"
     startDate: 2021-08-01
-    endDate: 2023-06-31
+    endDate: 2023-06-30
     location: "Krakow, PL"
     summary: "Evolution of a simple predictive model for e-commerce into a platform for multi-channel sales forecasting."
     highlights:
@@ -120,8 +120,8 @@ work:
       - Ran experiments and applied various ML models for forecasting and optimization tasks.
       - Co-led decisions on data science and acted as "glue" between data science, data engineering and customer teams.
       - Re-implemented CI/CD pipelines on GitHub Actions and Databricks.
+      - "Environment: Azure Databricks, GitHub Actions, Jira, Confluence"
   - name: "EPAM Systems | Client: Global CPG (Consumer Packaged Goods) Company"
-    website: "https://www.epam.com/"
     position: "Senior Data Scientist"
     startDate: 2021-02-01
     endDate: 2021-08-31
@@ -131,8 +131,8 @@ work:
       - Created additional features and applied model ensembling.
       - Achieved a 5% accuracy improvement over the current solution.
       - Initiated refactoring of existing solution to incorporate new features.
-  - name: "EPAM Systems | Client: Multinational CPG (Consumer Packaged Goods) Manufacturer"
-    website: "https://www.epam.com/"
+      - "Environment: Azure Databricks, Jira"
+  - name: "EPAM Systems | Client: Multinational Consumer Goods Manufacturer"
     position: "Senior Data Scientist"
     startDate: 2019-07-01
     endDate: 2021-01-31
@@ -141,16 +141,16 @@ work:
     highlights:
       - Won an inter-company "hackathon" using Bayesian statistical modelling.
       - Created a model (PyMC) and backend (FastAPI) for a proof-of-concept web tool.
-      - "Developed a large portion of the software stack, including data ingestion, ETL, modelling and pipelining."
+      - Developed a large portion of the software stack, including data ingestion, ETL, modelling and pipelining.
       - Implemented KBD (key business driver) "extraction" via sensitivity analysis and simulation.
       - Created a model-based simulator for what-if analysis, comparison and explainability.
       - Optimized and parallelized heavy computation (MCMC/NUTS within PyMC).
       - Presented results to project leadership.
+      - "Environment: Azure Cloud, Azure Databricks"
   - name: "EPAM Systems | Client: North American Retailer"
-    website: "https://www.epam.com/"
     position: "Data Scientist"
     startDate: 2018-09-01
-    endDate: 2019-06-31
+    endDate: 2019-06-30
     location: "Minsk, BY"
     summary: "Forecasting of consumer demand to direct replenishment and prevent stock-outs."
     highlights:
@@ -158,8 +158,8 @@ work:
       - Experimented with multiple modelling approaches, including price bucketing and hierarchical reconcilliation.
       - Built an explainable statistical optimization algorithm for product size distribution.
       - Developed a data/ML pipeline library on top of Airflow and Google Cloud; our team deployed using this library.
+      - "Environment: Google Compute Engine, Google Cloud Composer, GitLab"
   - name: "EPAM Systems | Interal Workforce Planning Team"
-    website: "https://www.epam.com/"
     position: "Data Scientist"
     startDate: 2017-08-17
     endDate: 2018-08-31
@@ -167,16 +167,16 @@ work:
     summary: "Worked with workforce planning team to forecast employee utilization/time allocation."
 education:
   - institution: "Belarusian State University"
-    studyType: "Bachelor's"
-    area: "Applied Mathematics and Computer Science"
-    startDate: 2014-09-01
-    endDate: 2018-06-01
-  - institution: "Belarusian State University"
-    studyType: "Master's"
+    studyType: "Master's (MSc)"
     area: "Mathematical Modelling and Data Analysis"
     startDate: 2018-09-01
     endDate: 2020-06-01
-certificates: [] # don't think Coursera is really important :)
+  - institution: "Belarusian State University"
+    studyType: "Bachelor's (BSc)"
+    area: "Applied Mathematics and Computer Science"
+    startDate: 2014-09-01
+    endDate: 2018-06-01
+certificates: [] # don't think Coursera from 2017 is really important :)
 # references:
 #   - name: "Foo"
 #     reference: "Bar"
@@ -184,26 +184,33 @@ certificates: [] # don't think Coursera is really important :)
 #   - title: "TODO"
 #     date: "2018-01-01"
 #     summary: "TODO"
-# publications:
-#   - name: "TODO"
-#     releaseDate: 2018-01-01
-#     summary: ""
-#     # url: ""
+publications:
+  - name: "(RU) The MS-VARX model and its application to the analysis of the business-cycle of the Republic of Belarus"
+    releaseDate: 2018-01-01 # FIXME
+    summary: "Analysis of Belarusian data, presented to the National Bank of Belarus"
+    url: "https://www.nbrb.by/bv/articles/10749.pdf"
+  - name: "(RU) The comparative analysis of the Hodrick-Prescott and Hamilton filters"
+    releaseDate: 2018-01-01 # FIXME
+    summary: "Application to Belarusian data of earlier work by James D. Hamilton ('Why you should never use the HP Filter')"
+    url: "https://www.nbrb.by/bv/articles/10546.pdf"
 volunteer:
   - organization: "pydantic-yaml"
     position: "Primary Developer"
     url: "https://pydantic-yaml.readthedocs.io/en/latest/"
     startDate: 2020-11-22
+    # endDate: null
     summary: "YAML extension for Pydantic library."
     highlights:
       - "Full library implementation with tests."
       - "CI/CD through GitHub Actions and ReadTheDocs"
       - "Reviewed and approved contributions."
+      - "~90k downloads/week and used in production-grade projects."
   - organization: "pydantic-kedro"
     position: "Primary Developer"
     url: "https://pydantic-kedro.readthedocs.io/en/latest/"
     startDate: 2023-02-21
-    summary: "Extension to save arbitrary Pydantic models as Kedro datasets."
+    # endDate: null
+    summary: "Extension to serialize and load arbitrary Pydantic models through Kedro datasets."
     highlights:
       - "Full library implementation with tests."
       - "CI/CD through GitHub Actions and ReadTheDocs"
