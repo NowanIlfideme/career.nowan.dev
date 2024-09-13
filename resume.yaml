@@ -6,8 +6,11 @@ basics:
   label: "Lead Data Scientist"
   image: "https://raw.githubusercontent.com/NowanIlfideme/career.nowan.dev/main/static/anatoly-camo-pattern.png"
   summary: |
-    "Full stack" data scientist and team leader, with a focus on econometric modelling using modern machine learning techniques.
-    I can work in multiple roles, make decisions under uncertainty and deliver quality software.
+    "Full stack" data scientist, with a focus on econometric modelling using modern machine learning techniques.
+    I can lead projects throughout all stages: POC, requirements discovery, EDA, modelling and experimentation, deployment, optimization and monitoring. 
+    I can work in multiple roles project roles: technical leader, data scientist, software developer, software architect, consultant.
+    I have also created courses and mentor/upskill multiple other data scientists.  
+    I am fluent in general and scientific Python (PyData stack, PySpark, Pydantic) and deliver high-quality software.
     My main domain experience is in the Retail and Consumer Packaged Goods industries.
   website: "https://nowan.dev"
   url: "https://nowan.dev"
@@ -20,8 +23,8 @@ basics:
       username: "NowanIlfideme"
       url: "https://github.com/NowanIlfideme"
     - network: "linkedin"
-      username: "nowanilfideme"
-      url: "https://www.linkedin.com/in/nowanilfideme"
+      username: "NowanIlfideme"
+      url: "https://www.linkedin.com/in/NowanIlfideme"
 skills:
   # levels are "Beginner", "Intermediate", "Advanced", "Master"
   # https://github.com/jsonresume/resume-cli/issues/213
@@ -48,18 +51,18 @@ skills:
       - Structural Modelling
       - Econometrics
       - TS Features
-      - Time-Inclusive System Design
+      - Time-Dependent System Design
   - name: Interpretable ML
     level: Advanced
     keywords:
       - Bayesian Modelling
       - Probabilistic Programming
-      - PyMC (library)
+      - PyMC
       - Black-Box Interpretability
-      - SHAP (library)
+      - SHAP
       - Causal ML
   - name: Deep Learning
-    level: Intermediate
+    level: Intermediate (Hobby Level)
     keywords:
       - Natural Language Processing (NLP)
       - Large Language Models (LLMs)
@@ -71,8 +74,8 @@ skills:
     keywords:
       - Data Science Consulting
       - Demand Planning
-      - Consumer Goods (CPG)
       - Retail
+      - Consumer Goods (CPG)
   - name: Software Engineering
     level: Advanced
     keywords:
@@ -81,26 +84,22 @@ skills:
       - API Design
       - Linting
       - Automated Testing
-      - Julia
   - name: Data Engineering
     level: Advanced
     keywords:
+      - SQL
       - Pandas
       - PySpark
       - Polars
+      - Xarray
       - Pandera
   - name: MLOps and ML Engineering
-    level: Intermediate
+    level: Advanced
+    keywords:
       - Model Lifecycle
       - Model Deployment
       - Kedro
       - MLflow
-  - name: Cloud
-    level: Intermediate
-    keywords:
-      - Databricks Platform
-      - Microsoft Azure
-      - Google Cloud Platform
   - name: DevOps
     level: Advanced
     keywords:
@@ -109,6 +108,20 @@ skills:
       - GitHub Actions
       - Docker
       - Linux
+  - name: Cloud
+    level: Intermediate
+    keywords:
+      - Databricks Platform
+      - Microsoft Azure
+      - Google Cloud Platform
+  - name: Other Languages
+    level: Beginner
+    keywords:
+      - Julia
+      - Rust
+      - C++
+      - R
+      - Java
 work:
   - name: "EPAM Systems | Client: Multinational Consumer Goods Company"
     url: "https://www.epam.com/"
