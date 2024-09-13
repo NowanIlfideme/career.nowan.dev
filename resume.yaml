@@ -25,23 +25,39 @@ basics:
 skills:
   # levels are "Beginner", "Intermediate", "Advanced", "Master"
   # https://github.com/jsonresume/resume-cli/issues/213
-  - name: Data Science (Core)
+  - name: Data Science Core
     level: Master
     keywords:
-      - Exploratory Data Analysis (EDA)
       - Statistics
-      - Machine Learning
+      - Exploratory Data Analysis (EDA)
+      - Optimization
+      - Model Tuning
+      - Evaluation
+  - name: Tabular Machine Learning
+    level: Master
+    keywords:
+      - Data Preparation
       - Regression
       - Classification
-      - Hyperparameter Optimization
-  - name: Data Science & Econometrics
+      - Clustering
+      - Boosting Models
+  - name: Time Series Analysis
     level: Master
     keywords:
-      - Time Series Forecasting
-      - Econometrics
+      - Forecasting
       - Structural Modelling
-      - Bayesian Networks
-      - Causal Machine Learning
+      - Econometrics
+      - TS Features
+      - Time-Inclusive System Design
+  - name: Interpretable ML
+    level: Advanced
+    keywords:
+      - Bayesian Modelling
+      - Probabilistic Programming
+      - PyMC (library)
+      - Black-Box Interpretability
+      - SHAP (library)
+      - Causal ML
   - name: Deep Learning
     level: Intermediate
     keywords:
@@ -54,28 +70,42 @@ skills:
     level: Advanced
     keywords:
       - Data Science Consulting
-      - "Domain: Demand Planning"
-      - "Domain: Consumer Goods (CPG)"
-      - "Domain: Retail"
+      - Demand Planning
+      - Consumer Goods (CPG)
+      - Retail
   - name: Software Engineering
     level: Advanced
     keywords:
       - Python
-      - Pandas
-      - PySpark
-      - ML Engineering
-      - API Design
       - Software Architecture
+      - API Design
       - Linting
       - Automated Testing
       - Julia
-  - name: DevOps and Cloud
+  - name: Data Engineering
+    level: Advanced
+    keywords:
+      - Pandas
+      - PySpark
+      - Polars
+      - Pandera
+  - name: MLOps and ML Engineering
     level: Intermediate
+      - Model Lifecycle
+      - Model Deployment
+      - Kedro
+      - MLflow
+  - name: Cloud
+    level: Intermediate
+    keywords:
+      - Databricks Platform
+      - Microsoft Azure
+      - Google Cloud Platform
+  - name: DevOps
+    level: Advanced
     keywords:
       - Continuous Integration (CI)
       - Continuous Delivery (CD)
-      - Microsoft Azure
-      - Databricks
       - GitHub Actions
       - Docker
       - Linux

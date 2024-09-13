@@ -5,6 +5,8 @@ on:
     paths:
       - "resume.yaml"
       - ".github/workflows/gist.yml"
+    branches:
+      - main
   pull_request:
     paths: 
       - "resume.yaml"
