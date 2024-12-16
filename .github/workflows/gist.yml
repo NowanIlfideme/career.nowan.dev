@@ -17,6 +17,7 @@ env:
 
 jobs:
   update-resume-gist:
+    name: "Update resume.json gist"
     runs-on: ubuntu-latest 
     steps:
     - name: Checkout Repository
@@ -39,3 +40,25 @@ jobs:
         token: ${{ secrets.GIST_TOKEN }}
         gist_id: ${{ env.GIST_ID }}
         file_path: resume.json
+  generate-pdf:
+    name: "Generate PDF output"
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+    - name: Export resume to PDF
+      uses: Devleaps/jsonresume-generator@v1
+      id: jsonresume-to-pdf
+      with:
+        action: "render"
+        file: "resume.yaml"
+        # folder: ""
+        output-type: "pdf"
+        theme-local: false
+        theme-name: "jsonresume-theme-stackoverflow"
+        # theme-name: "stackoverflow"
+    - name: Upload PDF as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: "anatoly-makarevich-resume.pdf" # TODO: Add date
+        path: "resume.pdf"
