@@ -209,7 +209,7 @@ work:
       - Built an explainable statistical optimization algorithm for product size distribution.
       - Developed a data/ML pipeline library on top of Airflow and Google Cloud; our team deployed using this library.
       - "Environment: Google Compute Engine, Google Cloud Composer, GitLab"
-  - name: "EPAM Systems,  Interal Workforce Planning Team"
+  - name: "EPAM Systems, Interal Workforce Planning Team"
     position: "Data Scientist"
     startDate: 2017-08-17
     endDate: 2018-08-31
@@ -276,6 +276,7 @@ volunteer:
   - organization: EPAM Systems
     position: "Course Developer and Mentor"
     url: "https://www.epam.com/"
+    startDate: 2021-10-03
     summary: "Beginner and Intermediate Course on Time Series Analysis"
     highlights:
       - Co-authored a course on Time Series Analysis, partially based on Hyndman's FPP3.
