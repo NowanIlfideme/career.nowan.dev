@@ -1,5 +1,6 @@
 meta:
-  theme: "stackoverflow"
+  # theme: "stackoverflow"
+  theme: "jsonresume-theme-stackoverflow"
 basics:
   name: "Anatoly Makarevich"
   # phone: ""

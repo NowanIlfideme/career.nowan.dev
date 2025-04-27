@@ -7,3 +7,5 @@ dependencies:
   - pip
   - pip:
       - qrcode[pil]
+      - pyyaml
+      - pydantic>2
