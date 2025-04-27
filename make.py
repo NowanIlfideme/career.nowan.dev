@@ -31,10 +31,24 @@ if __name__ == "__main__":
     dir_out = Path("output").resolve()
     f_json = Path("resume.json")
     f_pdf = dir_out / "resume.pdf"
+    f_html = dir_out / "resume.html"
     with Path("resume.yaml").open() as f_in:
         raw = yaml.load(f_in, yaml.SafeLoader)
     resume = Resume(raw)
     f_json.write_text(resume.model_dump_json(indent=2))
+    subprocess.run(
+        [
+            "npx",
+            "resumed",
+            "render",
+            "--theme",
+            "jsonresume-theme-stackoverflow",
+            "--format",
+            "html",
+            "-o",
+            str(f_html),
+        ],
+    )
     subprocess.run(
         [
             "npx",
