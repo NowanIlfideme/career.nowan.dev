@@ -42,6 +42,8 @@ if __name__ == "__main__":
             "export",
             "--theme",
             "stackoverflow",
+            "--format",
+            "pdf",
             str(f_pdf),
         ],
     )
