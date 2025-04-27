@@ -1,3 +1,4 @@
+# Python environment for QR code generation
 name: qr-env
 channels:
   - conda-forge
