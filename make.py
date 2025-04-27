@@ -38,12 +38,13 @@ if __name__ == "__main__":
     subprocess.run(
         [
             "npx",
-            "resume",  # not resumed because it's buggy :(
+            "resumed",
             "export",
             "--theme",
-            "stackoverflow",
+            "jsonresume-theme-stackoverflow",
             "--format",
             "pdf",
+            "-o",
             str(f_pdf),
         ],
     )

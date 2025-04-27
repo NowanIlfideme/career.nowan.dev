@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "jsonresume-theme-stackoverflow": "^2.1.0",
-    "resume-cli": "^3.0.8"
+    "resumed": "^5.0.0"
   }
 }
