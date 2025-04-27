@@ -109,6 +109,7 @@ skills:
       - Continuous Integration (CI)
       - Continuous Delivery (CD)
       - GitHub Actions
+      - Azure DevOps
       - Docker
       - Linux
   - name: Cloud
@@ -127,20 +128,22 @@ skills:
       - Java
       - Web (JavaScript, HTML, CSS)
 work:
-  - name: "EPAM Systems,  Client: Multinational Consumer Goods Company"
+  - name: "EPAM Systems, Client: Multinational Consumer Goods Company"
     url: "https://www.epam.com/"
     position: "Lead Data Scientist"
     startDate: 2024-07-01
     # no endDate
+    # as-of 2025-04-27
     location: "Krakow, PL"
     summary: "Development of end-to-end data products in Sales Excellence."
     highlights:
-      - Conducting exploratory data analysis and KPI value-sizing.
-      - Playing data science and technical leadership role in a chaotic multi-vendor environment.
-      - Setting up best practices for software development and data science lifecycles.
-      # soon to be implementing models...
-      - "Environment: Azure Databricks, Azure DevOps"
-  - name: "EPAM Systems,  Client: Global CPG (Consumer Packaged Goods) Company"
+      - Conducted exploratory data analysis and KPI value-sizing.
+      - Set up best practices for software development and data science lifecycles.
+      - Completed a pilot for in-store sales execution with two retailers.
+      - Created a Python library/platform to enable scale-up to new retailers.
+      - Currently scaling up, improving ML models, and playing a data science technical leadership role.
+      - "Environment: Azure Databricks, Azure DevOps (Repos, Pipelines, Artifacts, Issues)"
+  - name: "EPAM Systems, Client: Global CPG (Consumer Packaged Goods) Company"
     position: "Lead Data Scientist"
     startDate: 2023-06-01
     endDate: 2024-08-01
@@ -153,7 +156,7 @@ work:
       - Screened and interviewed cancidates for both the core and market-specific teams.
       - Handed off technical leadership responsibilities and switched to a technology and data science consulting role.
       - "Environment: Azure Databricks, GitHub Actions, Jira, Confluence"
-  - name: "EPAM Systems,  Client: Global CPG (Consumer Packaged Goods) Company"
+  - name: "EPAM Systems, Client: Global CPG (Consumer Packaged Goods) Company"
     position: "Lead Data Scientist"
     startDate: 2021-08-01
     endDate: 2023-06-30
@@ -168,7 +171,7 @@ work:
       - Co-led decisions on data science and acted as "glue" between data science, data engineering and customer teams.
       - Re-implemented CI/CD pipelines on GitHub Actions and Databricks.
       - "Environment: Azure Databricks, GitHub Actions, Jira, Confluence"
-  - name: "EPAM Systems,  Client: Global CPG (Consumer Packaged Goods) Company"
+  - name: "EPAM Systems, Client: Global CPG (Consumer Packaged Goods) Company"
     position: "Senior Data Scientist"
     startDate: 2021-02-01
     endDate: 2021-08-31
@@ -179,7 +182,7 @@ work:
       - Achieved a 5% accuracy improvement over the current solution.
       - Initiated refactoring of existing solution to incorporate new features.
       - "Environment: Azure Databricks, Jira"
-  - name: "EPAM Systems,  Client: Multinational Consumer Goods Manufacturer"
+  - name: "EPAM Systems, Client: Multinational Consumer Goods Manufacturer"
     position: "Senior Data Scientist"
     startDate: 2019-07-01
     endDate: 2021-01-31
@@ -194,7 +197,7 @@ work:
       - Optimized and parallelized heavy computation (MCMC/NUTS within PyMC).
       - Presented results to project leadership.
       - "Environment: Azure Cloud, Azure Databricks"
-  - name: "EPAM Systems,  Client: North American Retailer"
+  - name: "EPAM Systems, Client: North American Retailer"
     position: "Data Scientist"
     startDate: 2018-09-01
     endDate: 2019-06-30
