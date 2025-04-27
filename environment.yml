@@ -1,0 +1,9 @@
+# Python environment for QR code generation
+name: qr-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - qrcode[pil]
