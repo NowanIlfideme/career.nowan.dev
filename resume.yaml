@@ -214,7 +214,13 @@ work:
     startDate: 2017-08-17
     endDate: 2018-08-31
     location: "Minsk, BY"
-    summary: "Worked with workforce planning team to forecast employee utilization/time allocation."
+    summary: "Worked with workforce planning team to forecast and optimize employee utilization/time allocation."
+  - name: "EPAM Systems, Client: News Aggregator"
+    position: "Data Scientist Intern"
+    startDate: 2017-06-01
+    endDate: 2017-08-01
+    location: "Minsk, BY"
+    summary: "Helped implement a model predicting risks associated with entities from text, using classical NLP features, SVM and XGBoost."
 education:
   - institution: "Belarusian State University"
     studyType: "Master's (MSc)"
@@ -263,7 +269,8 @@ volunteer:
       - "Full library implementation with tests."
       - "CI/CD through GitHub Actions and ReadTheDocs"
       - "Reviewed and approved contributions."
-      - "~90k downloads/week and used in production-grade projects."
+      - ">170k downloads/week and used in production-grade projects."
+      - "See https://pypistats.org/packages/pydantic-yaml"
   - organization: "pydantic-kedro"
     position: "Primary Developer"
     url: "https://pydantic-kedro.readthedocs.io/en/latest/"
@@ -289,7 +296,7 @@ languages:
   - language: "Russian"
     fluency: "Native Speaker"
   - language: "Polish"
-    fluency: "Beginner"
+    fluency: "Beginner" # A2
 interests:
   - name: "Homelab and DIY"
     keywords:
