@@ -132,17 +132,16 @@ work:
     url: "https://www.epam.com/"
     position: "Lead Data Scientist"
     startDate: 2024-07-01
-    # no endDate
-    # as-of 2025-04-27
+    endDate: 2025-10-30
     location: "Krakow, PL"
     summary: "Development of end-to-end data products in Sales Excellence."
     highlights:
-      - Conducted exploratory data analysis and KPI value-sizing.
-      - Set up best practices for software development and data science lifecycles.
+      - Played a technical leadership role for data science and data software engineering.
+      - Conducted exploratory data analysis and modelling.
       - Completed a pilot for in-store sales execution with two retailers.
-      - Created a Python library/platform to enable scale-up to new retailers.
-      - Currently scaling up, improving ML models, and playing a data science technical leadership role.
-      - "Environment: Azure Databricks, Azure DevOps (Repos, Pipelines, Artifacts, Issues)"
+      - Created a platform for forecasting and econometric modelling (extensive Python library, CI/CD templates) to enable scale-up.
+      - Set up best practices for software development and data science lifecycles.
+      - "Environment: Azure Databricks, Azure DevOps"
   - name: "EPAM Systems, Client: Global CPG (Consumer Packaged Goods) Company"
     position: "Lead Data Scientist"
     startDate: 2023-06-01
