@@ -134,7 +134,7 @@ work:
     startDate: 2025-11-01
     # endDate: tbd
     location: "Krakow, PL"
-    # summary: "TBD"
+    summary: "Developing a world-class forecasting platform with AI/ML."
     # highlights:
     #   - Still to come. :)
   - name: "EPAM Systems, Client: Multinational Consumer Goods Company"
