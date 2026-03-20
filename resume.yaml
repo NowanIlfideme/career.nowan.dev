@@ -132,11 +132,12 @@ work:
     url: "https://www.gehealthcare.com/"
     position: "Senior Staff Data Scientist, Enterprise AI"
     startDate: 2025-11-01
-    # endDate: tbd
+    # endDate: not planned
     location: "Krakow, PL"
-    summary: "Developing a world-class forecasting platform with AI/ML."
-    # highlights:
-    #   - Still to come. :)
+    summary: "Developing a world-class machine learning, forecasting and AI platform."
+    highlights:
+      - Technical lead for forecasting teams.
+      - Technical co-lead for development of the ML Ops platform.
   - name: "EPAM Systems, Client: Multinational Consumer Goods Company"
     url: "https://www.epam.com/"
     position: "Lead Data Scientist"
@@ -271,7 +272,7 @@ volunteer:
     position: "Primary Developer"
     url: "https://pydantic-yaml.readthedocs.io/en/latest/"
     startDate: 2020-11-22
-    # endDate: null
+    # endDate: null # still going, want to rewrite
     summary: "YAML extension for Pydantic library."
     highlights:
       - "Full library implementation with tests."
@@ -283,7 +284,7 @@ volunteer:
     position: "Primary Developer"
     url: "https://pydantic-kedro.readthedocs.io/en/latest/"
     startDate: 2023-02-21
-    # endDate: null
+    endDate: 2025-12-31 # effectively archived for now, may revive via rewrite
     summary: "Extension to serialize and load arbitrary Pydantic models through Kedro datasets."
     highlights:
       - "Full library implementation with tests."
@@ -292,6 +293,7 @@ volunteer:
     position: "Course Developer and Mentor"
     url: "https://www.epam.com/"
     startDate: 2021-10-03
+    endDate: 2025-10-31
     summary: "Beginner and Intermediate Course on Time Series Analysis"
     highlights:
       - Co-authored a course on Time Series Analysis, partially based on Hyndman's FPP3.
